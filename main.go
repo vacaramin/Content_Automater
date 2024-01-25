@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	ExcelizeWrapper "content_automater/Excelize"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	ExcelizeWrapper.OpenFile("keyword.xlsx")
+
 }

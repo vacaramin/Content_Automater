@@ -26,11 +26,8 @@ To get started with Content Automater, follow these steps:
 5. Integrate the generated content into your SEO strategy or publishing workflow as needed.
 
 ## Requirements
-- Python 3.x
+- GO
 - OpenAI GPT API access (API key required)
-- Pandas (for CSV data processing)
-- Requests (for API communication)
-- Other dependencies as specified in the project documentation
 
 ## Support and Contributions
 If you encounter any issues or have suggestions for improvements, feel free to [open an issue](https://github.com/vacaramin/content_automater/issues) on GitHub. Contributions in the form of pull requests are also welcome.
