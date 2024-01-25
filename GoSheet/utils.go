@@ -21,3 +21,11 @@ func CloseFile(file *excelize.File) (err error) {
 	}
 	return nil
 }
+func GetAllSheetNames(filename string) (file *excelize.File, err error) {
+	f, err := excelize.OpenFile(filename)
+	if err != nil {
+		fmt.Println(err)
+		return nil, err
+	}
+	return f, nil
+}
