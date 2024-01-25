@@ -1,10 +1,10 @@
 package main
 
 import (
-	ExcelizeWrapper "content_automater/Excelize"
+	"content_automater/GoSheet"
 )
 
 func main() {
-	ExcelizeWrapper.OpenFile("keyword.xlsx")
+	GoSheet.OpenFile("keyword.xlsx")
 
 }

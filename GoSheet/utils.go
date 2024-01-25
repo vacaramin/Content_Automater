@@ -1,4 +1,4 @@
-package ExcelizeWrapper
+package GoSheet
 
 import (
 	"fmt"
