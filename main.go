@@ -5,6 +5,11 @@ import (
 )
 
 func main() {
-	GoSheet.OpenFile("keyword.xlsx")
+	Sheet, err := GoSheet.OpenFile("keyword.xlsx")
+	if err != nil {
+		panic(err)
+	}
+
+	defer GoSheet.CloseFile(Sheet)
 
 }
