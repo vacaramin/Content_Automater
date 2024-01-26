@@ -29,3 +29,8 @@ func GetAllSheetNames(filename string) (file *excelize.File, err error) {
 	}
 	return f, nil
 }
+
+// Wrapper Functions To Do
+// Get Sheet Names in an array or slice
+// Get Column Names in an array or slice
+// Get Row in an array or slice
